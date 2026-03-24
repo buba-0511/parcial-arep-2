@@ -18,8 +18,6 @@ public class RedirectController {
     private final AtomicLong counter = new AtomicLong();
     private static final String USER_AGENT = "Mozilla/5.0";
     
-
-
     @GetMapping("/redirectmathservice")
     public String redirectMathService(@RequestParam(value = "number") Integer number) {
         try {
