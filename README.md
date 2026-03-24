@@ -28,5 +28,9 @@ En el siguiete repositorio se encuentra el desarrollo completo de la arquitectur
 4. Por ultimo abrimos los puertos en AWS:
 
     * Proxy Server: 8080
-    * Math Service Server 1: 8081
-    * Math Service Server 2: 8082
+    * Math Service Server 1: 8080
+    * Math Service Server 2: 8080
+
+    ![alt text](image-8.png)
+
+Autor: Santiago Diaz Rojas
