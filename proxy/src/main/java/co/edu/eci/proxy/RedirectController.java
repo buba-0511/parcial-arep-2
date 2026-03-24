@@ -35,10 +35,10 @@ public class RedirectController {
         String GET_URL = "";
 
         if (counter.get() % 2 == 0) {
-            GET_URL = "http://13.223.0.134:8081/collatz/" + number;
+            GET_URL = "http://13.223.0.134:8081/collatz?number:" + number;
             counter.incrementAndGet();
         } else {
-            GET_URL = "http://100.48.98.138:8082/collatz/" + number;
+            GET_URL = "http://100.48.98.138:8082/collatz?number:" + number;
             counter.incrementAndGet();
         }
 
